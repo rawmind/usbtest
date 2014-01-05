@@ -1,4 +1,5 @@
 usbtest
 =======
 
-usbtest
+Requrment:
+libusb-1.0-0-dev 

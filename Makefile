@@ -1,4 +1,4 @@
-all: usb.c
-	gcc usb.c -lusb-1.0 -o usb
+all: usb.c usb.h
+	gcc usb.c -lusb-1.0 -o usbtest
 clean:
-	rm usb
+	rm usbtest
